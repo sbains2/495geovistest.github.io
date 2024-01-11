@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahil Bains</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    section:hover {
+      background-color: #333;
+    }
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sahil Bains</h1>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/sahil-bains-2678b4226/" target="_blank">Sahil Bains on LinkedIn</a></p>
+  </header>
+
+  <section>
+    <h2>Work Experience</h2>
+    <p><strong>Research Intern - UW Data Science Major Institute</strong></p>
+    <ul>
+      <li>Enhanced website functionality through advanced JavaScript and HTML techniques, prioritizing mobile device compatibility.</li>
+      <li>Conducted Python-based sentiment analysis to assess national attitudes towards autonomous zones.</li>
+      <li>Executed community outreach and fieldwork at Cal Anderson Park, gathering personal narratives and conducting surveys on CHOP boundaries.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p><strong>University of Washington - Seattle</strong></p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+
+    <h3>Enterprise GIS Implementation (Azure PostgreSQL + QGIS) Nov 2023</h3>
+    <ul>
+      <li>Established an Enterprise GIS system integrating Azure PostgreSQL server and QGIS, emphasizing centralized data management, user access control, and automated tasks through trigger functions.</li>
+      <li>Utilized 2010 Census Tracts, Parks, Fire Stations, Hospitals, and Police stations data in King County for comprehensive spatial data analysis and visualization.</li>
+    </ul>
+
+    <h3>Dynamic Geospatial Mapping Web Application Nov 2023</h3>
+    <ul>
+      <li>Developed a geospatial Mapping Web Application with a dynamic interface, leveraging data from diverse sources such as 2010 Census Tracts, Parks, Fire Stations, Hospitals, and Police stations in King County.</li>
+      <li>Implemented functionalities for comprehensive spatial data analysis and visualization, enhancing user insights through an intuitive mapping interface.</li>
+    </ul>
+
+    <h3>Constructing a Search Engine (Python, CSE 163) May 2023</h3>
+    <ul>
+      <li>Implemented a Python search engine using TF-IDF for document relevance analysis.</li>
+      <li>Designed and programmed the Document class, emphasizing term frequency and normalization.</li>
+    </ul>
+  </section>
+
+  <script>
+    const sections = document.querySelectorAll('section');
+
+    sections.forEach(section => {
+      section.addEventListener('mouseover', () => {
+        sections.forEach(s => s.style.backgroundColor = '');
+        section.style.backgroundColor = '#333';
+      });
+    });
+  </script>
+
+</body>
+</html>
