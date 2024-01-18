@@ -1,5 +1,3 @@
-This repository contains relevant projects and experiences for Sahil Bains at the University of Washington (GEOG 458 -- LAB 1)
-
 # Sahil Bains
 
 [LinkedIn: Sahil Bains on LinkedIn](https://www.linkedin.com/in/sahil-bains-2678b4226/)
